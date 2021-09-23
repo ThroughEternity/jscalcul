@@ -40,6 +40,10 @@ document.getElementById('btn_9').addEventListener('click', function () {
     inputWindow.value += '9'; 
 })
 
+document.getElementById('btn_0').addEventListener('click', function () {
+    inputWindow.value += '0'; 
+})
+
 document.getElementById('btn_sum').addEventListener('click', function () {
     lastOperand = parseInt(inputWindow.value);
     operation ='sum';
